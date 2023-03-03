@@ -15,7 +15,7 @@ class Stats {
     public Stats(String[] args) {
         if (args.length != 0) {
             for(int i = 0; i < args.length; i++) {
-                listArgs.add(i);
+                listArgs.add(Integer.parseInt(args[i]));
             }
         }
     }
